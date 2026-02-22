@@ -26,6 +26,13 @@ void loop()
 
     Serial.print("LDR Value: ");
     Serial.println(ldrValue);
+    if (ldrValue < 500) {
+        Serial.println("Bright Environment");
+    } else {
+        Serial.println("Dark Environment");
+    }
+
+    delay(500);
 
 
 }
