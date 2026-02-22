@@ -20,7 +20,12 @@ void setup() {
 
 }
 
-void loop() {
+void loop()
+{
+    ldrValue = analogRead(LDR_PIN);
+
+    Serial.print("LDR Value: ");
+    Serial.println(ldrValue);
 
 
 }
