@@ -9,7 +9,9 @@
  * Reads analog brightness data from LDR sensor
  * and displays structured output via Serial Monitor.
  */
+#define LDR_PIN A0
 
+int ldrValue = 0;
 
 void setup() {
 
