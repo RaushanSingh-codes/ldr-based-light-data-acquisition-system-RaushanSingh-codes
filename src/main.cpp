@@ -14,7 +14,9 @@
 int ldrValue = 0;
 
 void setup() {
+    Serial.begin(9600);
 
+    Serial.println("LDR Light Monitoring System Initialized");
 
 }
 
